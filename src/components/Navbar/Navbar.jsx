@@ -4,15 +4,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import logo from "../../../public/logo.png";
+import { useTranslations } from "next-intl";
+import LanSwitch from "./LanSwitch";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const t = useTranslations("nav");
 
   const navLinks = [
-    { name: "About", href: "/about" },
-    { name: "Our Businesses", href: "#businesses" },
-    { name: "Our Approach", href: "#approach" },
-    { name: "Contact", href: "#contact" },
+    { name: t("about"), href: "/about" },
+    { name: t("business"), href: "#businesses" },
+    { name: t("approach"), href: "#approach" },
+    { name: t("contact"), href: "#contact" },
   ];
 
   return (
@@ -45,12 +48,7 @@ export default function Navbar() {
 
         {/* Language button */}
         <div className="hidden md:block">
-          <button
-            type="button"
-            className="rounded-md border cursor-pointer border-[#d18b25] px-4 py-2 text-sm text-[#26364b] transition-colors hover:bg-[#d18b25] hover:text-white"
-          >
-            العربية
-          </button>
+          <LanSwitch />
         </div>
 
         {/* Mobile menu button */}
@@ -88,12 +86,7 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <button
-              type="button"
-              className="w-fit rounded-md border border-[#d18b25] px-5 py-2 text-sm text-[#26364b] cursor-pointer hover:bg-[#d18b25] hover:text-white"
-            >
-              العربية
-            </button>
+            <LanSwitch />
           </div>
         </div>
       )}

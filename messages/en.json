@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "about": "About",
+    "business": "Our Business",
+    "approach": "Our Approach",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "slogan": "GLOBAL VISION • TRUSTED PARTNERSHIPS",
+    "headTitle": "Building a Better Tomorrow.",
+    "headText": "A diversified business identity connecting Trading, Contracting, Manpower Supply, Investment and Consulting.",
+    "heroBtn": "EXPLORE OUR BUSINESS"
+  }
+}
