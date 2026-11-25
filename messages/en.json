@@ -10,5 +10,17 @@
     "headTitle": "Building a Better Tomorrow.",
     "headText": "A diversified business identity connecting Trading, Contracting, Manpower Supply, Investment and Consulting.",
     "heroBtn": "EXPLORE OUR BUSINESS"
+  },
+  "AboutSection": {
+    "slogan": "ABOUT ORVESTA",
+    "title": " A clear, connected approach to business.",
+    "text": "ORVESTA GLOBAL COMPANY brings multiple business disciplines under one corporate identity. We focus on understanding requirements, defining practical scopes, coordinating resources and building long-term business relationships.",
+    "int": "INTEGRITY",
+    "prof": "PROFRSSIONALISM",
+    "reli": "RELIABILITY",
+    "secTitle": "Our Vision",
+    "thiTitle": "Our Mission",
+    "secText": "To build a respected international business brand known for trust, adaptability and sustainable value.",
+    "thiText": "To develop practical business relationships and deliver responsive solutions across our areas of activity."
   }
 }

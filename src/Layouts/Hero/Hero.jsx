@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../public/logo.jpeg";
+import logo from "../../../public/orvesta-logo.jpg";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
@@ -22,7 +22,17 @@ const Hero = () => {
             </button>
           </div>
           <div className="hidden lg:block flex-1">
-            <Image src={logo} alt="Logo" />
+            <div className="isolate bg-[#F2F6FB]">
+              <Image
+                src={logo}
+                alt="Hero Logo"
+                width={600}
+                height={600}
+                className="w-full h-auto"
+                style={{ mixBlendMode: "multiply" }}
+                priority
+              />
+            </div>
           </div>
         </div>
       </div>
