@@ -19,7 +19,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full bg-white shadow-sm">
+    <header className="w-full bg-white shadow-sm sticky top-0 bg-white z-50">
       <nav className="mx-auto flex min-h-[76px] max-w-[1160px] items-center justify-between px-5 py-3 sm:px-8 lg:px-4">
         {/* Logo */}
         <Link
@@ -27,13 +27,9 @@ export default function Navbar() {
           className="flex shrink-0 items-center gap-2"
           aria-label="Orvesta Global Company Home"
         >
-          {/* Logo mark */}
-
-          {/* Logo text */}
           <Image src={logo} width={100} alt="Logo" />
         </Link>
 
-        {/* Desktop navigation */}
         <div className="hidden items-center gap-7 md:flex lg:gap-8">
           {navLinks.map((link) => (
             <Link

@@ -11,6 +11,7 @@ const LanSwitch = () => {
     const nextLocale = locale === "en" ? "ar" : "en";
     router.replace(pathname, {
       locale: nextLocale,
+      scroll: false,
     });
   };
 

@@ -22,5 +22,20 @@
     "thiTitle": "Our Mission",
     "secText": "To build a respected international business brand known for trust, adaptability and sustainable value.",
     "thiText": "To develop practical business relationships and deliver responsive solutions across our areas of activity."
+  },
+  "businessLayouts": {
+    "slogan": "WHAT WE DO",
+    "title": "Our Business Portfolio",
+    "subtitle": "Five business pillars, one connected corporate vision.",
+    "firstHead": "Trading",
+    "secHead": "Contracting",
+    "thiHead": "Manpower Supply",
+    "foHead": "Investment",
+    "fiHead": "Consulting",
+    "firstText": "Commercial sourcing, product supply and trading opportunities shaped around business requirements.",
+    "secText": "Construction, renovation, building finishing and infrastructure-related project activities.",
+    "thiText": "Workforce planning and supply solutions aligned with project and organisational needs.",
+    "foText": "Opportunity evaluation, business relationships and sustainable growth initiatives",
+    "fiText": "Business insight, structured thinking and practical recommendations for organisations."
   }
 }
