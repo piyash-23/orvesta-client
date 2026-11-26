@@ -37,5 +37,23 @@
     "thiText": "Workforce planning and supply solutions aligned with project and organisational needs.",
     "foText": "Opportunity evaluation, business relationships and sustainable growth initiatives",
     "fiText": "Business insight, structured thinking and practical recommendations for organisations."
+  },
+  "howWeWord": {
+    "slogan": "HOW WE WORK",
+    "title": "Clarity. Coordination. Commitment.",
+    "firstHead": "Understand",
+    "secHead": "Define",
+    "thiHead": "Coordinate",
+    "firstText": "Listen to the client’s objectives and operating context.",
+    "secText": "Agree on scope, responsibilities, timelines and expected outcomes.",
+    "thiText": "Align people, suppliers, partners and project resources."
+  },
+  "footer": {
+    "slogan": "LET'S CONNECT",
+    "title": "Let’s build what’s next.",
+    "text1": "For business enquiries, partnerships and project discussions, connect with ORVESTA GLOBAL COMPANY through its official corporate channels.",
+    "text2": "Official contact details will be added after confirmation.",
+    "copyright": "© 2026 ORVESTA GLOBAL COMPANY",
+    "footTitle": "BUILDING A BETTER TOMORROW"
   }
 }

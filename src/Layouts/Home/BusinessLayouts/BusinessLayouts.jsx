@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const BusinessLayouts = () => {
   const t = useTranslations("businessLayouts");
@@ -9,30 +10,35 @@ const BusinessLayouts = () => {
       category: "TRADE",
       title: t("firstHead"),
       description: t("firstText"),
+      link: "/about/trading",
     },
     {
       number: "02",
       category: "BUILD",
       title: t("secHead"),
       description: t("secText"),
+      link: "/about/contracting",
     },
     {
       number: "03",
       category: "PEOPLE",
       title: t("thiHead"),
       description: t("thiText"),
+      link: "/about/manpower",
     },
     {
       number: "04",
       category: "GROWTH",
       title: t("foHead"),
       description: t("foText"),
+      link: "/about/investment",
     },
     {
       number: "05",
       category: "INSIGHT",
       title: t("fiHead"),
       description: t("fiText"),
+      link: "/about/consulting",
     },
   ];
 
@@ -54,8 +60,9 @@ const BusinessLayouts = () => {
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {businessPillars.map((item) => (
-            <div
+            <Link
               key={item.number}
+              href={item.link}
               className="group min-h-[190px] border border-[#dfe6ef] bg-white px-6 py-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#c59a45] hover:shadow-[0_10px_30px_rgba(16,39,71,0.06)]"
             >
               <span className="mb-3 block text-[12px] font-medium tracking-[1.8px] text-[#bd8b26]">
@@ -69,7 +76,7 @@ const BusinessLayouts = () => {
               <p className="text-[14px] leading-6 text-[#64748b]">
                 {item.description}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

@@ -13,7 +13,7 @@ const Hero = () => {
             <p className="text-[#b68a32] text-sm font-bold">
               <span>{t("slogan")}</span>
             </p>
-            <h1 className="text-5xl font-bold text-[#0b2343] text-[90px]">
+            <h1 className="text-5xl font-bold text-[#0b2343] text-[52px] lg:text-[60px]">
               {t("headTitle")}
             </h1>
             <p className="py-6">{t("headText")}</p>
